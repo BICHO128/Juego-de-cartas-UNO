@@ -24,7 +24,7 @@ public class Cola<T> {
         //isEmpty se utiliza para saber si esta vacio...
         if (isEmpty()) {
             throw new IllegalStateException("La cola está vacía");
-        }
+        } //Si no esta vacio, entonces devuelve el primer elemento...
         return list.get(0);
     }
 
